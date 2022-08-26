@@ -1,0 +1,218 @@
+﻿<Window x:Class="Wpf_Work_15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Work_15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="500">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <FlowDocumentPageViewer x:Name="docMy">
+            <FlowDocument>
+                <Table>
+                    <Table.Columns>
+                        <TableColumn Width="0.2*"/>
+                        <TableColumn Width="*"/>
+                        <TableColumn Width="0.2*"/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell >
+                                <Paragraph  TextAlignment="Center">
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell >
+                                <Paragraph FontSize="20" TextAlignment="Left" >
+                                    <Bold>Сколько стоит завести волнистого попугайчика</Bold>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell >
+                                <Paragraph TextAlignment="Center">
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell >
+                                <Paragraph>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph TextAlignment="Left">
+                                    И быстро ли надоедает мыть клетку
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell >
+                                <Paragraph>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                <Paragraph TextAlignment="Left">
+                    Волнистые попугаи родом из Австралии. В России их часто держат в качестве домашних животных, потому что это довольно просто. 
+                    Температура воздуха и влажность в квартире комфортны для птицы, никакое специальное оборудование покупать не нужно. У этих попугаев 
+                    небольшой размер — 17—23 см в длину, а весят они около 50 г. Это позволяет содержать их в небольших клетках. Существуют разные породы 
+                    волнистых попугаев. Так называемые выставочные крупнее обычных и имеют более пышное оперение. А традиционные волнистики бывают всех
+                    цветов радуги. Заводчики подбирают птиц для скрещивания, чтобы получить необычный редкий окрас у птенцов. Коллекционеры собирают 
+                    интересных птиц и даже демонстрируют их на выставках.
+                    <Floater Width="250" HorizontalAlignment="Right" BorderThickness="2,2,2,2" BorderBrush="Black" >
+                        <BlockUIContainer>
+                            <Image Source="Data/1.png"/>
+                        </BlockUIContainer>
+                    </Floater>
+                </Paragraph>
+                <Paragraph TextAlignment="Left">
+                    Но содержать попугая не всегда просто. По отзывам знакомых, птицы часто обгрызают обои и корешки книг, какают на люстру и занавески 
+                    и мешают спать по утрам. Также нужно понимать, что уборки точно прибавится. Придется мыть не только клетку, но и пространство вокруг нее.
+                    Попугай разбрасывает шелуху и два-три раза в год линяет. Мусор разлетается вокруг клетки — нужно каждый день пылесосить. Попугаи — шумные
+                    птицы. Они громко чирикают, особенно в ответ на резкие звуки. Если вы любите тишину, заводить птицу точно не стоит. Но у нас двое маленьких
+                    детей, так что мы привыкли к шуму. А еще попугаи — социальные птицы. Им нужно внимание хозяина. Без общения они грустят и быстро дичают,
+                    перестают садиться на руку, клюются. Не получится завести волнистика и забыть про него: придется уделять попугаю время.
+                    </Paragraph>
+                <Paragraph TextAlignment="Left">
+                    Если вы не боитесь шума и готовы тратить время на дополнительную уборку и общение с питомцем, можно заводить попугая. Расскажу, как его 
+                    выбрать. Возраст. Чтобы попугая было легче приручить, лучше заводить птенца. Идеальный возраст — 40—54 дня.
+                    <Floater Width="300" HorizontalAlignment="Left" BorderThickness="2,2,2,2" BorderBrush="Black" >
+                        <BlockUIContainer>
+                            <Image Source="Data/6.jpg"/>
+                        </BlockUIContainer>
+                    </Floater> К этому моменту птенцы уже
+                    выходят из гнезда, умеют самостоятельно питаться и легко адаптируются в новом доме. Но определить возраст птицы не так-то просто: в 2—3
+                    месяца попугаи меняют оперение и приобретают взрослый вид. Если вы берете птенчика уже после первой линьки, придется положиться на
+                    честность продавца. Пол тоже непросто определить.
+                    Самцы отличаются от самок только цветом восковицы — нароста над клювом. У 
+                    самцов-птенчиков она розового или сиреневого цвета, а с возрастом становится синей. У самочек — светло-голубая, а впоследствии меняет
+                    цвет на бежево-коричневый. Правда, у попугаев необычных окрасов цвет восковицы может отличаться от стандартного, так что ошибаются даже
+                    опытные продавцы. Рекомендуют заводить сначала самца. Обычно они менее агрессивные, чем самки, их легче приручить и научить говорить.
+                    Если вы хотите взять сразу пару птичек, можно выбрать самку и самца или двух самцов. Две девочки могут не ужиться в одной клетке. При 
+                    выборе птицы важно оценить ее общее состояние. Птенец должен быть активным, непугливым, с аккуратным оперением.
+                </Paragraph>
+                <Paragraph>
+                    Прежде чем приобрести попугая, нужно подготовить все необходимое: клетку, удобные жердочки, кормушки и поилки. По желанию можно купить
+                    качели, лесенки и игрушки,
+                    <Floater Width="250" HorizontalAlignment="Right" BorderThickness="2,2,2,2" BorderBrush="Black">
+                        <BlockUIContainer>
+                            <Image Source="Data/7.png"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    но это не входит в обязательный минимум и нравится не всем птицам. Например, Снежок не любит, когда в клетке
+                    появляется что-то незнакомое. Большую часть времени попугай проводит в клетке, и это единственный правильный вариант его содержания в 
+                    квартире. Если птицу совсем не выпускать из клетки, у нее постепенно ослабнут мышцы крыльев и она разучится летать. Активность необходима
+                    для здоровья: попугаю нужно как можно чаще летать, лучше — каждый день. Но только под присмотром: попугаи маленькие, они легко могут 
+                    провалиться за шкаф или запутаться в проводах. Также на птицу, свободно перемещающуюся по квартире, банально можно случайно наступить 
+                    или сесть. Материал и форма. Важно обратить внимание на материал, из которого сделана клетка. Медные или оцинкованные клетки опасны
+                    для птиц: эти металлы окисляются от влаги и покрываются ядовитыми окисями. Деревянные удобны, но недолговечны. А пластиковые прутья
+                    недостаточно прочные — попугай легко их перегрызет. Лучше выбрать металлическую никелированную клетку. Она долговечная, не ржавеет,
+                    безопасна для птиц, ее легко мыть. Поддон может быть пластиковым. Лучше выбрать прямоугольную клетку. В круглых птичке сложно 
+                    ориентироваться: попугаям важно иметь укромный уголок, где можно спрятаться. В круглой клетке организовать такой не получится.
+                    Кроме того, в фигурных клетках неудобно закреплять лесенки и качели.
+                    <Floater Width="250" HorizontalAlignment="Right" BorderThickness="2,2,2,2" BorderBrush="Black">
+                        <BlockUIContainer>
+                            <Image Source="Data/2.png"/>
+                        </BlockUIContainer>
+                    </Floater>
+                </Paragraph>
+                <Paragraph>
+                    Место для клетки нужно выбрать заранее. И переставлять ее впоследствии не стоит: это дополнительный стресс для птички. Лучше сразу установить ее
+                    правильно:
+                </Paragraph>
+                <List MarkerStyle="Box">
+                    <ListItem>
+                        <Paragraph>
+                            Кухня категорически не подходит для жизни попугая. Ему вредны пар и дым, выделяющиеся во время приготовления пищи. 
+                            Отпускать попугая летать по кухне опасно. Лучше выбрать комнату, где вы проводите много времени: птицы любят компанию.                         
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Клетка должна быть достаточно освещена, но защищена от сквозняков. От холода попугай может погибнуть. Если вы живете в 
+                            средней полосе, лучше не ставить клетку на подоконник.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Клетка должна упираться в стену одной или двумя сторонами. Так у птицы будет укромный уголок — при желании попугай
+                            сможет спрятаться.
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph>
+                    Сохраните этот список, если собираетесь взять попугая. В таблицах указана примерная стоимость новых вещей:
+                </Paragraph>
+                <Table  >
+                    <Table.Columns>
+                        <TableColumn Width="*"/>
+                        <TableColumn Width="0.2*"/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell BorderBrush="Black" BorderThickness="1,1,1,1">
+                                <Paragraph  TextAlignment="Left">
+                                    Клетка — прямоугольная, металлическая никелированная, с деревянными жердочками и двумя кормушками в комплекте
+                                </Paragraph>
+                            </TableCell >
+                            <TableCell BorderBrush="Black" BorderThickness="1,1,1,1">
+                                <Paragraph TextAlignment="Center" >
+                                    3000 Р
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell BorderBrush="Black" BorderThickness="1,1,1,1">
+                                <Paragraph TextAlignment="Left">
+                                    Песок и мелкие камешки, 1 упаковка
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell BorderBrush="Black" BorderThickness="1,1,1,1">
+                                <Paragraph TextAlignment="Center">
+                                    300 Р
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell BorderBrush="Black" BorderThickness="1,1,1,1">
+                                <Paragraph TextAlignment="Left">
+                                    Панцирь каракатицы
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell BorderBrush="Black" BorderThickness="1,1,1,1">
+                                <Paragraph TextAlignment="Center">
+                                    130 Р
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell BorderBrush="Black" BorderThickness="1,1,1,1">
+                            <Paragraph TextAlignment="Left">
+                                Зерновой корм «Рио», 0,5 кг (на 1 месяц)
+                            </Paragraph>
+                        </TableCell>
+                            <TableCell BorderBrush="Black" BorderThickness="1,1,1,1">
+                            <Paragraph TextAlignment="Center">
+                                120 Р
+                            </Paragraph>
+                        </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+
+            </FlowDocument>
+        </FlowDocumentPageViewer>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Content="Открыть" Click="Button_Click_1" FontFamily="ScriptS" FontWeight="Bold" BorderThickness="2,2,2,2" Margin="3" Padding="3" Background="#FFC6F6C3"/>
+            <Button Content="Сохранить" Click="Button_Click_2"  FontFamily="ScriptS" FontWeight="Bold" BorderThickness="2,2,2,2" Margin="3" Padding="3" Background="#FFC6F6C3"/>
+            <Button Content="Очистить" Click="Button_Click"  FontFamily="ScriptS" FontWeight="Bold" BorderThickness="2,2,2,2" Margin="3" Padding="3" Background="#FFC6F6C3"/>
+        </StackPanel>
+        
+    </Grid>
+    <Window.Background>
+        <ImageBrush ImageSource="Data/5.jpg"/>
+    </Window.Background>
+
+</Window>
