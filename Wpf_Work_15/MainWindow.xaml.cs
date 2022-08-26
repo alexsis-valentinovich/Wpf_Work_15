@@ -35,17 +35,17 @@ namespace Wpf_Work_15
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            using (FileStream fileS = File.Open("1.xaml", FileMode.Create))
+            using (FileStream fS = File.Open("1.xaml", FileMode.Create))
             {
-                XamlWriter.Save(docMy.Document, fileS);
+                XamlWriter.Save(docMy.Document, fS);
             }
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            using (FileStream fileS = File.Open("1.xaml", FileMode.Open))
+            using (FileStream fS = File.Open("1.xaml", FileMode.Open))
             {
-                docMy.Document= XamlReader.Load(fileS) as FlowDocument;
+                docMy.Document= XamlReader.Load(fS) as FlowDocument;
             }
         }
     }
